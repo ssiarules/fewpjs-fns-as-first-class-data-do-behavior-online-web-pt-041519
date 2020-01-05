@@ -14,10 +14,10 @@ function handleClick(e) {
 function greet(time){
   // remove: from time string and parse single integer, set this to timeNow variable
   let timeNow = parseInt(time.split(':'))
-  // if timeNow is less than 12 return and stop 
+  // if timeNow is less than 12 return and stop
   if (timeNow < 12 ){
     return "Good Morning"
-    //if timeNow is greater than 5 return and stop 
+    //if timeNow is greater than 5 return and stop
   } else if (timeNow - 12 > 5) {
     return "Good Evening"
     // if timeNow has not stopped, return and stop
@@ -27,5 +27,5 @@ function greet(time){
 }
 
 function displayMessage(){
-  
+
 }
