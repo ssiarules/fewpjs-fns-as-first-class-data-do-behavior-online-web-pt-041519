@@ -31,5 +31,5 @@ function displayMessage(text){
   // find text containing id of greeting
   let content = document.getElementById('greeting')
   // update text associated with greeting id
-  content.innerText = text; 
+  content.innerText = text;
 }
